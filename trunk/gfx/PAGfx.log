@@ -1,0 +1,89 @@
+PAGfx Converter v0.10 -- by Mollusk -- resurrected by fincs -- forum.palib.info
+If you have suggestions, problems or anything please come to the PAlib forums
+
+Converting PAGfx.ini
+Transparent Color: Magenta
+
+15 sprites:
+  bouton: 256colors, 64x32, Pal: bouton_Pal, -> bouton_Sprite
+  explosion: 256colors, 64x512, Pal: explosion_Pal, -> explosion_Sprite
+  lvl1_essence_txt: 256colors, 16x16, Pal: lvl1_essence_txt_Pal, -> lvl1_essence_txt_Sprite
+  lvl1_etagere: 256colors, 32x64, Pal: lvl1_etagere_Pal, -> lvl1_etagere_Sprite
+  lvl1_planche_mur: 256colors, 32x16, Pal: lvl1_planche_mur_Pal, -> lvl1_planche_mur_Sprite
+  lvl1_planche_sol: 256colors, 32x32, Pal: lvl1_planche_sol_Pal, -> lvl1_planche_sol_Sprite
+  lvl1_porte: 256colors, 64x32, Pal: lvl1_porte_Pal, -> lvl1_porte_Sprite
+  lvl1_porte_engrais: 256colors, 64x32, Pal: lvl1_porte_engrais_Pal, -> lvl1_porte_engrais_Sprite
+  lvl1_porte_explosee: 256colors, 64x32, Pal: lvl1_porte_explosee_Pal, -> lvl1_porte_explosee_Sprite
+  lvl1_tondeuse: 256colors, 32x32, Pal: lvl1_tondeuse_Pal, -> lvl1_tondeuse_Sprite
+  marche: 256colors, 32x64, Pal: marche_Pal, -> marche_Sprite
+  minijeuTondeuselevier: 256colors, 16x16, Pal: minijeuTondeuselevier_Pal, -> minijeuTondeuselevier_Sprite
+  pikup: 256colors, 64x64, Pal: pikup_Pal, -> pikup_Sprite
+  zombi: 256colors, 32x32, Pal: zombi_Pal, -> zombi_Sprite
+  zombimarche: 256colors, 32x64, Pal: zombimarche_Pal, -> zombimarche_Sprite
+
+22 backgrounds:
+  accueil : EasyBg, 256x192, Pal: accueil_Pal, 712 tiles -> accueil_Tiles and accueil_Map
+  black_bg : EasyBg, 256x192, Pal: black_bg_Pal, 1 tiles -> black_bg_Tiles and black_bg_Map
+  hosto0 : EasyBg, 256x192, Pal: hosto0_Pal, 685 tiles -> hosto0_Tiles and hosto0_Map
+  hosto01 : EasyBg, 256x192, Pal: hosto01_Pal, 689 tiles -> hosto01_Tiles and hosto01_Map
+  hosto02 : EasyBg, 256x192, Pal: hosto02_Pal, 676 tiles -> hosto02_Tiles and hosto02_Map
+  hosto03 : EasyBg, 256x192, Pal: hosto03_Pal, 675 tiles -> hosto03_Tiles and hosto03_Map
+  hosto04 : EasyBg, 256x192, Pal: hosto04_Pal, 687 tiles -> hosto04_Tiles and hosto04_Map
+  lvl1_bg : EasyBg, 256x192, Pal: lvl1_bg_Pal, 734 tiles -> lvl1_bg_Tiles and lvl1_bg_Map
+  lvl1b_bg : EasyBg, 256x192, Pal: lvl1b_bg_Pal, 768 tiles -> lvl1b_bg_Tiles and lvl1b_bg_Map
+  lvl2_bg : EasyBg, 256x192, Pal: lvl2_bg_Pal, 768 tiles -> lvl2_bg_Tiles and lvl2_bg_Map
+  lvl2_bg2 : EasyBg, 256x192, Pal: lvl2_bg2_Pal, 207 tiles -> lvl2_bg2_Tiles and lvl2_bg2_Map
+  minijeuColzaBG : EasyBg, 256x192, Pal: minijeuColzaBG_Pal, 592 tiles -> minijeuColzaBG_Tiles and minijeuColzaBG_Map
+  minijeuColzaBG1 : EasyBg, 256x192, Pal: minijeuColzaBG1_Pal, 592 tiles -> minijeuColzaBG1_Tiles and minijeuColzaBG1_Map
+  minijeuColzaBG1fleche : EasyBg, 256x192, Pal: minijeuColzaBG1fleche_Pal, 592 tiles -> minijeuColzaBG1fleche_Tiles and minijeuColzaBG1fleche_Map
+  minijeuColzaBG2 : EasyBg, 256x192, Pal: minijeuColzaBG2_Pal, 592 tiles -> minijeuColzaBG2_Tiles and minijeuColzaBG2_Map
+  minijeuColzaBG2fleche : EasyBg, 256x192, Pal: minijeuColzaBG2fleche_Pal, 592 tiles -> minijeuColzaBG2fleche_Tiles and minijeuColzaBG2fleche_Map
+  minijeuColzaBGcoup : EasyBg, 256x192, Pal: minijeuColzaBGcoup_Pal, 592 tiles -> minijeuColzaBGcoup_Tiles and minijeuColzaBGcoup_Map
+  minijeuColzaBGd_but : EasyBg, 256x192, Pal: minijeuColzaBGd_but_Pal, 594 tiles -> minijeuColzaBGd_but_Tiles and minijeuColzaBGd_but_Map
+  minijeuColzaBGdbutfleche : EasyBg, 256x192, Pal: minijeuColzaBGdbutfleche_Pal, 594 tiles -> minijeuColzaBGdbutfleche_Tiles and minijeuColzaBGdbutfleche_Map
+  minijeuTondeuseBG : EasyBg, 256x192, Pal: minijeuTondeuseBG_Pal, 746 tiles -> minijeuTondeuseBG_Tiles and minijeuTondeuseBG_Map
+  nivo4BG : EasyBg, 256x192, Pal: nivo4BG_Pal, 764 tiles -> nivo4BG_Tiles and nivo4BG_Map
+  white_bg : EasyBg, 256x192, Pal: white_bg_Pal, 1 tiles -> white_bg_Tiles and white_bg_Map
+
+37 palettes:
+  bouton_Pal, 2 colors
+  explosion_Pal, 15 colors
+  lvl1_essence_txt_Pal, 12 colors
+  lvl1_etagere_Pal, 192 colors
+  lvl1_planche_mur_Pal, 25 colors
+  lvl1_planche_sol_Pal, 22 colors
+  lvl1_porte_Pal, 79 colors
+  lvl1_porte_engrais_Pal, 102 colors
+  lvl1_porte_explosee_Pal, 75 colors
+  lvl1_tondeuse_Pal, 22 colors
+  marche_Pal, 67 colors
+  minijeuTondeuselevier_Pal, 6 colors
+  pikup_Pal, 48 colors
+  zombi_Pal, 133 colors
+  zombimarche_Pal, 131 colors
+  accueil_Pal, 222 colors
+  black_bg_Pal, 2 colors
+  hosto0_Pal, 203 colors
+  hosto01_Pal, 216 colors
+  hosto02_Pal, 219 colors
+  hosto03_Pal, 223 colors
+  hosto04_Pal, 217 colors
+  lvl1_bg_Pal, 232 colors
+  lvl1b_bg_Pal, 115 colors
+  lvl2_bg_Pal, 125 colors
+  lvl2_bg2_Pal, 61 colors
+  minijeuColzaBG_Pal, 241 colors
+  minijeuColzaBG1_Pal, 240 colors
+  minijeuColzaBG1fleche_Pal, 241 colors
+  minijeuColzaBG2_Pal, 240 colors
+  minijeuColzaBG2fleche_Pal, 239 colors
+  minijeuColzaBGcoup_Pal, 241 colors
+  minijeuColzaBGd_but_Pal, 242 colors
+  minijeuColzaBGdbutfleche_Pal, 243 colors
+  minijeuTondeuseBG_Pal, 172 colors
+  nivo4BG_Pal, 178 colors
+  white_bg_Pal, 2 colors
+
+Converted in 0 minutes and 0 seconds
+
+Finished!
